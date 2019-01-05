@@ -136,6 +136,9 @@ uint Cache::load(Addr sid, Addr x) {
     write_back(sid, k);
     li.dirty = 0;
     monitor.undirty();
+    monitor.evict();
+  } else if (li.valid) {
+    monitor.evict();
   } else {
     li.valid = 1;
     li.dirty = 0;

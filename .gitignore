@@ -5,3 +5,4 @@ test/copyshift_smart_gen
 test/*.out
 *.pdf
 report.md
+*.swp

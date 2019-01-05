@@ -21,7 +21,7 @@ operation: <S>
 ----------------------------
 hit:        6
 miss:       4
-eviction:   0
+eviction:   2
 dirty:      0
 ----------------------------
 operation: <R>
@@ -52,7 +52,7 @@ operation: <S>
 ----------------------------
 hit:        6
 miss:       20
-eviction:   0
+eviction:   18
 dirty:      1
 ----------------------------
 operation: <R>
@@ -75,6 +75,6 @@ operation: <S>
 ----------------------------
 hit:        13
 miss:       21
-eviction:   0
+eviction:   19
 dirty:      1
 ----------------------------
