@@ -1,0 +1,80 @@
+operation: <W>
+operation: <W>
+operation: <W>
+operation: <W>
+operation: <W>
+operation: <W>
+operation: <W>
+operation: <W>
+operation: <S>
+----------------------------
+hit:        6
+miss:       2
+eviction:   0
+dirty:      2
+----------------------------
+operation: <R>
+Read result: 0
+operation: <R>
+Read result: 0
+operation: <S>
+----------------------------
+hit:        6
+miss:       4
+eviction:   0
+dirty:      0
+----------------------------
+operation: <R>
+Read result: 0x42
+operation: <W>
+operation: <R>
+Read result: 0x43
+operation: <W>
+operation: <R>
+Read result: 0x44
+operation: <W>
+operation: <R>
+Read result: 0x45
+operation: <W>
+operation: <R>
+Read result: 0x46
+operation: <W>
+operation: <R>
+Read result: 0x47
+operation: <W>
+operation: <R>
+Read result: 0x48
+operation: <W>
+operation: <R>
+Read result: 0x49
+operation: <W>
+operation: <S>
+----------------------------
+hit:        6
+miss:       20
+eviction:   0
+dirty:      1
+----------------------------
+operation: <R>
+Read result: 0x49
+operation: <R>
+Read result: 0x42
+operation: <R>
+Read result: 0x43
+operation: <R>
+Read result: 0x44
+operation: <R>
+Read result: 0x45
+operation: <R>
+Read result: 0x46
+operation: <R>
+Read result: 0x47
+operation: <R>
+Read result: 0x48
+operation: <S>
+----------------------------
+hit:        13
+miss:       21
+eviction:   0
+dirty:      1
+----------------------------

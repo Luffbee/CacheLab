@@ -1,0 +1,5 @@
+*.o
+cachelab
+test/copyshift_naive_gen
+test/copyshift_smart_gen
+test/*.out
